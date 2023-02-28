@@ -5,13 +5,15 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
   },
   "author": "PeadarJB",
   "license": "ISC",
   "dependencies": {
     "@barba/core": "^2.9.7",
-    "@barba/css": "^2.1.15"
+    "@barba/css": "^2.1.15",
+    "reset-css": "^5.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.21.0",
