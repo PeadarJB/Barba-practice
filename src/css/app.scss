@@ -4,8 +4,8 @@
     --color-primary: #00052F;
     --font-primary: 'Gloock', Arial, sans-serif;
     --font-secondary: 'Poppins', Arial, sans-serif;
-    --cursor-1: url("img/Cursor_1.png") 8 8, auto;
-    --cursor-2: url("img/Cursor_2.png") 8 8, auto;
+    --cursor-1: url("../img/Cursor_1.png") 8 8, auto;
+    --cursor-2: url("../img/Cursor_2.png") 8 8, auto;
   }
   
   html, body {
@@ -14,7 +14,7 @@
       font-family: var(--font-primary);
       font-size: 16px;
       background-color: #FCFFF9;
-      background-image: url("img/noise\ background.png");
+      background-image: url("../img/noise background.png");
       cursor: var(--cursor-1);
     }
     
