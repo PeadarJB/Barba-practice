@@ -79,7 +79,7 @@ module.exports = (env, argv) => ({
       path.join(__dirname, '/src'),
     ],
     compress: true,
-    port: 9000,
+    port: 8000,
     open: true,
   },
 });

@@ -1,0 +1,26 @@
+/* Transition with cover screen */
+.slide-about-leave-active,
+.slide-about-enter-active,
+.slide-about-leave-active .transition,
+.slide-about-enter-active .transition {
+    transition: transform 3.5s ease-out;
+}
+
+
+// Cover screen in
+.slide-about-leave .transition {
+    transform: translateX(100%);
+}
+
+.slide-about-leave-to .transition {
+    transform: translateX(0);
+}
+
+// Cover screen out
+.slide-about-enter .transition {
+    transform: translateX(0);
+}
+
+.slide-about-enter-to .transition {
+    transform: translateX(-100%);
+}
