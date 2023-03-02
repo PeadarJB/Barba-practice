@@ -1,0 +1,46 @@
+.work-transition h1 {
+    font-size: 5em;
+    font-weight: 700;
+    color: rgba(0,0,0,0);
+    -webkit-text-stroke: 1px black;
+    text-align: center;
+    padding: 0;
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    z-index: 103;
+}
+
+@media screen and (max-width: 768px) {
+    .work-transition h1 {
+        font-size: 4em;
+    }
+}
+
+
+/* Transition with cover screen */
+[data-barba-namespace="home"] .slide-work-leave-active,
+.slide-work-enter-active,
+.slide-work-leave-active .transition,
+.slide-work-enter-active .transition {
+  transition: transform 1.5s ease-in-out;
+}
+
+
+// Cover screen in
+.slide-work-leave .transition {
+  transform: translateX(-100%);
+}
+
+.slide-work-leave-to .transition {
+  transform: translateX(0);
+}
+
+// Cover screen out
+.slide-work-enter .transition {
+  transform: translateX(0);
+}
+
+.slide-work-enter-to .transition {
+  transform: translateX(100%);
+}

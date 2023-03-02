@@ -38,9 +38,16 @@ barba.init({
             },
             leave(){},
             enter(){},
-            beforeEnter(){
-                console.log('with-cover beforeEnter');
+            beforeEnter(){},
+        }, {
+            name: 'slide-work',
+            // GO TO AN ARRAY, CAN BE MULTIPLE PAGES IF YOU WANT THE SAME TRANSITION
+            to: {
+                namespace: ['work']
             },
-        },
+            leave(){},
+            enter(){},
+            beforeEnter(){},
+        }
     ]
 })
